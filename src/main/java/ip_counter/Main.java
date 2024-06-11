@@ -7,11 +7,15 @@ import java.io.IOException;
 import java.time.Duration;
 import java.time.LocalDateTime;
 
+/**
+ * PLEASE refer to the "src/main/resources/notes.txt" file to see the program
+ * performance description while handling the huge file posted in:
+ * https://ecwid-vgv-storage.s3.eu-central-1.amazonaws.com/ip_addresses.zip
+ */
 public class Main {
 
     public static void main(String[] args) {
-//        String filePath = "src/test/resources/ips.txt";
-        String filePath = "/home/hripsime/projects/light_speed/ip_addresses";
+        String filePath = "src/test/resources/ips.txt";
         process(filePath);
     }
 
