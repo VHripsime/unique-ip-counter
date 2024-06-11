@@ -1,0 +1,20 @@
+
+
+    Before submitting this assignment, I checked how my program handled the unzipped 120GB file from:
+    https://ecwid-vgv-storage.s3.eu-central-1.amazonaws.com/ip_addresses.zip
+
+    And now I'd like to share here some details about the program performance.
+
+    During the program execution, I tracked how much memory was being used.
+    Naturally, as the program continued, the memory usage grew.
+    And here are the maximum usage values observed during the execution on average:
+        * Heap -> 685 MB
+        * MetaSpace -> 467 MB
+        * TOTAL -> 1,2 GB
+
+    Please see the results in "src/main/resources/memory_usage.png" file.
+
+    Regarding the execution time, the program on average takes about 6 minutes and 15 seconds on my machine.
+    Here are my machine specifications:
+         * RAM -> 16 GB
+         * Processor -> 13th Gen Intel® Core™ i7-1360P × 16
